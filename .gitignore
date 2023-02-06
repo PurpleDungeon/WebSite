@@ -105,3 +105,6 @@ dist
 
 # Firebase cache (https://firebase.google.com/)
 .firebase/
+
+# React Build
+build/
