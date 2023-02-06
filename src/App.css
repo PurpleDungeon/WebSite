@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #1c1c1d;
 }
 
 .App-logo {
@@ -20,4 +21,9 @@
 
 .App-link {
   color: #745494;
+}
+
+.App-div-right {
+  background-color: #745494;
+  color: #1c1c1d;
 }
