@@ -1,7 +1,7 @@
-import logo from './img/PurpleDungeonSmallLogoVariantPurple.png'
-import img1 from './img/PurpleDungeonVariantPurple.png'
+import img1 from './img/PurpleDungeonSmallLogoVariantPurple.png'
+import logo from './img/PurpleDungeonVariantPurple.png'
 import './App.css';
-import {Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
   return (
@@ -9,24 +9,21 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <div className='App-div-right'>
+      <div className='App-screen-black d-flex align-items-center justify-content-center' id='section-1'>
         <Container fluid>
-          <Row>
-            <Col sm={7} md={7} lg={7} xl={7} xxl={7}>
-              <img src={img1} alt="img1"></img>
+          <Row className="me-3">
+            <Col sm={6} md={6} lg={6} xl={6} xxl={6}>
+              <img className='rounded' src={img1} alt="img1"></img>
             </Col>
-            <Col sm={5} md={5} lg={5} xl={5} xxl={5}>
+            <Col sm={6} md={6} lg={6} xl={6} xxl={6}>
               <h1> What is Purple Dungeon? </h1>
-              <p class="text-center">
+              <p className="text-center">
                 Purple Dungeon is a spiritual folder, where Murasaki Simema (aka Simone Bergonzi) put his personal project
               </p>
             </Col>
           </Row>
         </Container>
       </div>
-      <footer>
-        <p> © 2021 Purple Dungeon </p>
-      </footer>
     </div>
   );
 }
