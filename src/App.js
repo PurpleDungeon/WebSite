@@ -7,23 +7,39 @@ function App() {
   let projects = [{
     id: 1,
     src: 'https://picsum.photos/1600/900',
-    name: 'project 1',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl ultricies nisl, nec ultricies nis'
+    name: 'Adventure Story',
+    caption: 'A simple RPG game based on Dragon Quest 1. The game is written in C# and uses the Unity engine. The game is only a sandbox and is not a complete game. It was made for a school project.',
+    gitHub: 'https://github.com/MurasakiSimema/RPGEsame'
   }, {
     id: 2,
     src: 'https://picsum.photos/1600/900',
-    name: 'project 2',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl ultricies nisl, nec ultricies nis'
+    name: 'Werewolf',
+    caption: 'A Telegram bot that allows you to play the game WereWolf in a Group. The game is written in NodeJs and uses the node-telegram-bot-api node module. It was made for a school project.',
+    gitHub: 'https://github.com/MurasakiSimema/botwerewolf'
   }, {
     id: 3,
     src: 'https://picsum.photos/1600/900',
-    name: 'project 3',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl ultricies nisl, nec ultricies nis'
+    name: 'Simple Chat',
+    caption: 'A simple console chat that allows you to send message to other people on the same computer. The chat is written in NodeJs and uses the enquirer node module. It was made for a school project.',
+    gitHub: 'https://github.com/MurasakiSimema/SimpleChat'
   }, {
     id: 4,
     src: 'https://picsum.photos/1600/900',
-    name: 'project 4',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nunc nisl ultricies nisl, nec ultricies nis'
+    name: 'Eva Platform',
+    caption: 'A simple platform game like the google dinosaur game. The game is written in HTML, Javascript and CSS. It was made for a school project. There are some eastereggs in the game, try some password.',
+    gitHub: 'https://github.com/MurasakiSimema/EvaPlatform'
+  }, {
+    id: 5,
+    src: 'https://picsum.photos/1600/900',
+    name: 'Crowdfunding',
+    caption: 'A simple crowdfunding platform. The platform is written in PHP and use the Paypal\'s API for the payment sections. It was made for a school project with some classmates. Unfortunately some minor fix are lost on the school\'s servers.',
+    gitHub: 'https://github.com/CrowdfoundingCrew/Crowdfounding'
+  }, {
+    id: 6,
+    src: 'https://picsum.photos/1600/900',
+    name: 'Purple Dungeon',
+    caption: 'This website is written in ReactJs and uses the react-bootstrap node module. It is hosted by Firebase. It is this website that you are currently viewing. Currently it is still work in progress.',
+    gitHub: 'https://github.com/PurpleDungeon/WebSite'
   }]
 
   return (
@@ -49,19 +65,19 @@ function App() {
       <div className='App-screen-black d-flex align-items-center justify-content-center' id='section-1'>
         <Container fluid>
           <Row>
-            {projects.map(item => (
-              <Col key={item.id} sm={4} md={4} lg={4} xl={4} xxl={4} className='mb-3 d-flex align-items-center justify-content-center'>
-                <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#745494' }}>
-                  <Card.Img variant="top" src={item.src} />
+            {projects.map(project => (
+              <Col key={project.id} sm={4} md={4} lg={4} xl={4} xxl={4} className='mb-3 d-flex align-items-center justify-content-center'>
+                <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
+                  <Card.Img variant="top" src={project.src} />
                   <Card.Body>
-                    <Card.Title>{item.name}</Card.Title>
+                    <Card.Title>{project.name}</Card.Title>
                     <Card.Text>
-                      {item.caption}
+                      {project.caption}
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
                   <ButtonGroup aria-label="Basic example">
-                    <Button variant="dark">GitHub</Button>
+                    <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
                     <Button variant="outline-dark">Page</Button>
                   </ButtonGroup>
                   </Card.Body>
