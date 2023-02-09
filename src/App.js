@@ -2,54 +2,10 @@ import img1 from './img/PurpleDungeonSmallLogoVariantPurple.png'
 import logo from './img/PurpleDungeonVariantPurple.png'
 import './App.css';
 import { Container, Row, Col, Image, Card, Button, ButtonGroup } from 'react-bootstrap';
+import purpleProjects from './purpleProjects.json'
+import personalProjects from './personalProjects.json'
 
 function App() {
-  let purpleProjects = [{
-    id: 1,
-    src: 'https://picsum.photos/1600/900',
-    name: 'Purple Dungeon Website',
-    caption: 'This website is written in ReactJs and uses the react-bootstrap node module. It is hosted by Firebase. It is this website that you are currently viewing. Currently it is still work in progress.',
-    gitHub: 'https://github.com/PurpleDungeon/WebSite'
-  }]
-
-  let personalProjects = [{
-    id: 1,
-    src: 'https://picsum.photos/1600/900',
-    name: 'Adventure Story',
-    caption: 'A simple RPG game based on Dragon Quest 1. The game is written in C# and uses the Unity engine. The game is only a sandbox and is not a complete game. It was made for a school project.',
-    gitHub: 'https://github.com/MurasakiSimema/RPGEsame'
-  }, {
-    id: 2,
-    src: 'https://picsum.photos/1600/900',
-    name: 'Werewolf',
-    caption: 'A Telegram bot that allows you to play the game WereWolf in a Group. The game is written in NodeJs and uses the node-telegram-bot-api node module. It was made for a school project.',
-    gitHub: 'https://github.com/MurasakiSimema/botwerewolf'
-  }, {
-    id: 3,
-    src: 'https://picsum.photos/1600/900',
-    name: 'Simple Chat',
-    caption: 'A simple console chat that allows you to send message to other people on the same computer. The chat is written in NodeJs and uses the enquirer node module. It was made for a school project.',
-    gitHub: 'https://github.com/MurasakiSimema/SimpleChat'
-  }, {
-    id: 4,
-    src: 'https://picsum.photos/1600/900',
-    name: 'Eva Platform',
-    caption: 'A simple platform game like the google dinosaur game. The game is written in HTML, Javascript and CSS. It was made for a school project. There are some eastereggs in the game, try some password.',
-    gitHub: 'https://github.com/MurasakiSimema/EvaPlatform'
-  }, {
-    id: 5,
-    src: 'https://picsum.photos/1600/900',
-    name: 'Crowdfunding',
-    caption: 'A simple crowdfunding platform. The platform is written in PHP and use the Paypal\'s API for the payment sections. It was made for a school project with some classmates. Unfortunately some minor fix are lost on the school\'s servers.',
-    gitHub: 'https://github.com/CrowdfoundingCrew/Crowdfounding'
-  }, {
-    id: 6,
-    src: 'https://picsum.photos/1600/900',
-    name: 'Roguelike',
-    caption: 'A simple roguelike game. The game is written in C# and uses the Unity engine. Currently it is still work in progress.',
-    gitHub: ''
-  }]
-
   return (
     <div className="App">
       <header className="App-header">
@@ -91,7 +47,7 @@ function App() {
                   <Card.Body>
                   <ButtonGroup aria-label="Basic example">
                     <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
-                    <Button variant="outline-dark">Page</Button>
+                    <Button variant="outline-dark" href={project.link}>Page</Button>
                   </ButtonGroup>
                   </Card.Body>
                 </Card>
@@ -117,7 +73,7 @@ function App() {
                   <Card.Body>
                   <ButtonGroup aria-label="Basic example">
                     <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
-                    <Button variant="outline-dark">Page</Button>
+                    <Button variant="outline-dark" href={project.link}>Page</Button>
                   </ButtonGroup>
                   </Card.Body>
                 </Card>
