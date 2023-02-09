@@ -4,7 +4,15 @@ import './App.css';
 import { Container, Row, Col, Image, Card, Button, ButtonGroup } from 'react-bootstrap';
 
 function App() {
-  let projects = [{
+  let purpleProjects = [{
+    id: 1,
+    src: 'https://picsum.photos/1600/900',
+    name: 'Purple Dungeon Website',
+    caption: 'This website is written in ReactJs and uses the react-bootstrap node module. It is hosted by Firebase. It is this website that you are currently viewing. Currently it is still work in progress.',
+    gitHub: 'https://github.com/PurpleDungeon/WebSite'
+  }]
+
+  let personalProjects = [{
     id: 1,
     src: 'https://picsum.photos/1600/900',
     name: 'Adventure Story',
@@ -37,36 +45,67 @@ function App() {
   }, {
     id: 6,
     src: 'https://picsum.photos/1600/900',
-    name: 'Purple Dungeon',
-    caption: 'This website is written in ReactJs and uses the react-bootstrap node module. It is hosted by Firebase. It is this website that you are currently viewing. Currently it is still work in progress.',
-    gitHub: 'https://github.com/PurpleDungeon/WebSite'
+    name: 'Roguelike',
+    caption: 'A simple roguelike game. The game is written in C# and uses the Unity engine. Currently it is still work in progress.',
+    gitHub: ''
   }]
 
   return (
     <div className="App">
       <header className="App-header">
-        <Image src={logo} className="App-logo" alt="logo" />
+        <Image  src={logo} className="App-logo" alt="logo" />
       </header>
-      <div className='App-screen-black d-flex align-items-center justify-content-center' id='section-1'>
+      <div className='App-screen-black d-flex align-items-center justify-content-center'>
         <Container fluid>
           <Row className='me-3 d-flex align-items-center justify-content-center'>
             <Col sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <Image className='rounded' src={img1} alt="img1"></Image>
+              <Image style={{ maxWidth: '100%' }} className='rounded' src={img1} alt="img1"></Image>
             </Col>
             <Col sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <h1> What is Purple Dungeon? </h1>
+              <h2> What is Purple Dungeon? </h2>
               <p className="text-center">
-                Purple Dungeon is a spiritual folder where Murasaki Simema (aka Simone Bergonzi) put his personal project to create
+                Purple Dungeon is an immaginary game studio made by Murasaki Simema (aka Simone Bergonzi). The studio is a place where Murasaki Simema put his personal project.
+              </p>
+              <h2 className='mt-4'> Who is Simone Bergonzi? </h2>
+              <p className="text-center">
+                Simone Bergonzi is a 21 yo developer from Italy. He is currently working in a local company as a Full Stack Developer on a Web Applications. His dream is to create a memorable RPG Game. His main programming languages are C# and Javascript. 
               </p>
             </Col>
           </Row>
         </Container>
       </div>
-      <div className='App-screen-black d-flex align-items-center justify-content-center' id='section-1'>
+      <div className='App-screen-black d-flex align-items-center justify-content-center'>
         <Container fluid>
-          <Row>
-            {projects.map(project => (
-              <Col key={project.id} sm={4} md={4} lg={4} xl={4} xxl={4} className='mb-3 d-flex align-items-center justify-content-center'>
+          <h1>Purple Dungeon Projects</h1>
+          <Row className='mt-5'>
+            {purpleProjects.map(project => (
+              <Col key={project.id} sm={4} md={4} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
+                <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
+                  <Card.Img variant="top" src={project.src} />
+                  <Card.Body>
+                    <Card.Title>{project.name}</Card.Title>
+                    <Card.Text>
+                      {project.caption}
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Body>
+                  <ButtonGroup aria-label="Basic example">
+                    <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
+                    <Button variant="outline-dark">Page</Button>
+                  </ButtonGroup>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </div>
+      <div className='App-screen-black d-flex align-items-center justify-content-center'>
+        <Container fluid>
+          <h1>Other Projects</h1>
+          <Row className='mt-5'>
+            {personalProjects.map(project => (
+              <Col key={project.id} sm={4} md={4} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
                 <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
                   <Card.Img variant="top" src={project.src} />
                   <Card.Body>
