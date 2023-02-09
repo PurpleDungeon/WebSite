@@ -57,11 +57,11 @@ function App() {
       </header>
       <div className='App-screen-black d-flex align-items-center justify-content-center'>
         <Container fluid>
-          <Row className='me-3 d-flex align-items-center justify-content-center'>
-            <Col sm={6} md={6} lg={6} xl={6} xxl={6}>
+          <Row className='d-flex align-items-center justify-content-center'>
+            <Col sm={12} md={12} lg={6} xl={6} xxl={6}>
               <Image style={{ maxWidth: '100%' }} className='rounded' src={img1} alt="img1"></Image>
             </Col>
-            <Col sm={6} md={6} lg={6} xl={6} xxl={6}>
+            <Col sm={12} md={12} lg={6} xl={6} xxl={6}>
               <h2> What is Purple Dungeon? </h2>
               <p className="text-center">
                 Purple Dungeon is an immaginary game studio made by Murasaki Simema (aka Simone Bergonzi). The studio is a place where Murasaki Simema put his personal project.
@@ -79,7 +79,7 @@ function App() {
           <h1>Purple Dungeon Projects</h1>
           <Row className='mt-5'>
             {purpleProjects.map(project => (
-              <Col key={project.id} sm={4} md={4} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
+              <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
                 <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
                   <Card.Img variant="top" src={project.src} />
                   <Card.Body>
@@ -105,7 +105,7 @@ function App() {
           <h1>Other Projects</h1>
           <Row className='mt-5'>
             {personalProjects.map(project => (
-              <Col key={project.id} sm={4} md={4} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
+              <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
                 <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
                   <Card.Img variant="top" src={project.src} />
                   <Card.Body>
