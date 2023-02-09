@@ -1,6 +1,8 @@
-[{
+import adventureStory from './img/projects/adventureStory/pic1.png';
+
+let json = [{
     "id": 1,
-    "src": "https://picsum.photos/1600/900",
+    "src": adventureStory,
     "name": "Adventure Story",
     "caption": "A simple RPG game based on Dragon Quest 1. The game is written in C# and uses the Unity engine. The game is only a sandbox and is not a complete game. It was made for a school project.",
     "gitHub": "https://github.com/MurasakiSimema/RPGEsame"
@@ -35,3 +37,5 @@
     "caption": "A simple roguelike game. The game is written in C# and uses the Unity engine. Currently it is still work in progress.",
     "gitHub": ""
 }]
+
+export default json;

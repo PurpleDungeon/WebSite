@@ -34,6 +34,15 @@
     min-height: 100vh;
 }
 
+.App-div-black {
+    background-color: #1c1c1d;
+    color: #ccb4d6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .responsive {
     width: 100%;
     height: auto;

@@ -2,7 +2,7 @@ import img1 from './img/PurpleDungeonSmallLogoVariantPurple.png'
 import logo from './img/PurpleDungeonVariantPurple.png'
 import './App.css';
 import { Container, Row, Col, Image, Card, Button, ButtonGroup } from 'react-bootstrap';
-import purpleProjects from './purpleProjects.json'
+import purpleProjects from './purpleProjects.json.js'
 import personalProjects from './personalProjects.json'
 
 function App() {
@@ -36,8 +36,8 @@ function App() {
           <Row className='mt-5'>
             {purpleProjects.map(project => (
               <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
-                <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
-                  <Card.Img variant="top" src={project.src} />
+                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#8c7b8c' }}>
+                  <Card.Img style={{ aspectRatio: 16/9 }} variant="top" src={project.src} />
                   <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
                     <Card.Text>
@@ -62,8 +62,8 @@ function App() {
           <Row className='mt-5'>
             {personalProjects.map(project => (
               <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
-                <Card border="dark" style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
-                  <Card.Img variant="top" src={project.src} />
+                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#8c7b8c' }}>
+                  <Card.Img style={{ aspectRatio: 16/9 }} variant="top" src={project.src} />
                   <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
                     <Card.Text>
