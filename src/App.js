@@ -1,5 +1,5 @@
 import img1 from './img/PurpleDungeonSmallLogoVariantPurple.png'
-import logo from './img/PurpleDungeonVariantPurple.png'
+import logo from './img/PurpleDungeonVariantPurple2.png'
 import './App.css';
 import { Container, Row, Col, Image, Card, Button, ButtonGroup } from 'react-bootstrap';
 import purpleProjects from './purpleProjects.json.js'
