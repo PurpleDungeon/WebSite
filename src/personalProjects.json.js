@@ -3,6 +3,7 @@ import werewolf from './img/projects/werewolf/pic1.jpeg';
 import simpleChat from './img/projects/simpleChat/pic1.png';
 import evaPlatform from './img/projects/evaPlatform/pic1.png';
 import donateFor from './img/projects/donateFor/pic1.png';
+import aste from './img/projects/aste/pic1.png';
 import roguelike from './img/projects/roguelike/pic1.jpeg';
 
 let json = [{
@@ -37,10 +38,16 @@ let json = [{
     "gitHub": "https://github.com/CrowdfoundingCrew/Crowdfounding"
   }, {
     "id": 6,
+    "src": aste,
+    "name": "Aste",
+    "caption": "A simple Window's application that permit to view and edit a list of artifact for an auction house. The application is a Windows App Form written in C# (.NET Framework) and uses a SQL Database. It was made for a school exam.",
+    "gitHub": "https://github.com/MurasakiSimema/Aste"
+  }, {
+    "id": 7,
     "src": roguelike,
     "name": "Roguelike",
     "caption": "A simple roguelike game. The game is written in C# and uses the Unity engine. Currently it is still work in progress.",
     "gitHub": ""
-}]
+  }]
 
 export default json;
