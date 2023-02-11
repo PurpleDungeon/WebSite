@@ -17,7 +17,7 @@ function App() {
             <Col sm={12} md={12} lg={6} xl={6} xxl={6}>
               <Image style={{ maxWidth: '100%' }} className='rounded' src={img1} alt="img1"></Image>
             </Col>
-            <Col className='px-5' sm={12} md={12} lg={6} xl={6} xxl={6}>
+            <Col className='px-5' sm={12} md={12} lg={5} xl={5} xxl={5}>
               <h2> What is Purple Dungeon? </h2>
               <p className="text-center">
                 Purple Dungeon is an immaginary game studio made by Murasaki Simema (aka Simone Bergonzi). The studio is a place where Murasaki Simema put his personal project.
