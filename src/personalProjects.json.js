@@ -40,7 +40,7 @@ let json = [{
     "id": 6,
     "src": aste,
     "name": "Aste",
-    "caption": "A simple Window's application that permit to view and edit a list of artifact for an auction house. The application is a Windows App Form written in C# (.NET Framework) and uses a SQL Database. It was made for a school exam.",
+    "caption": "A simple Windows' application that permit to view and edit a list of artifact for an auction house. The application is a Windows App Form written in C# (.NET Framework) and uses a SQL Database. It was made for a school exam.",
     "gitHub": "https://github.com/MurasakiSimema/Aste"
   }, {
     "id": 7,

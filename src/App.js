@@ -36,7 +36,7 @@ function App() {
           <Row className='mt-5'>
             {purpleProjects.map(project => (
               <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
-                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#8c7b8c' }}>
+                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
                   <Card.Img style={{ aspectRatio: 16/9 }} variant="top" src={project.src} alt={project.name} />
                   <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
@@ -62,7 +62,7 @@ function App() {
           <Row className='mt-5'>
             {personalProjects.map(project => (
               <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
-                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#8c7b8c' }}>
+                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
                   <Card.Img style={{ aspectRatio: 16/9 }} variant="top" src={project.src} alt={project.name} />
                   <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
