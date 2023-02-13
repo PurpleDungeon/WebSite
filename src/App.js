@@ -33,10 +33,10 @@ function App() {
       <div className='App-screen-black d-flex align-items-center justify-content-center'>
         <Container fluid>
           <h1>Purple Dungeon Projects</h1>
-          <Row className='mt-5'>
+          <Row className='mt-5 d-flex justify-content-center'>
             {purpleProjects.map(project => (
-              <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
-                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
+              <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 d-flex justify-content-center'>
+                <Card style={{ width: '95%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
                   <Card.Img style={{ aspectRatio: 16/9 }} variant="top" src={project.src} alt={project.name} />
                   <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
@@ -59,10 +59,10 @@ function App() {
       <div className='App-screen-black d-flex align-items-center justify-content-center'>
         <Container fluid>
           <h1>Other Projects</h1>
-          <Row className='mt-5'>
+          <Row className='mt-5 d-flex justify-content-center'>
             {personalProjects.map(project => (
-              <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 justify-content-center'>
-                <Card style={{ width: '100%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
+              <Col key={project.id} sm={12} md={6} lg={4} xl={4} xxl={4} className='mb-3 d-flex justify-content-center'>
+                <Card style={{ width: '95%', color: '#1c1c1d', backgroundColor: '#ccb4d6' }}>
                   <Card.Img style={{ aspectRatio: 16/9 }} variant="top" src={project.src} alt={project.name} />
                   <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
@@ -87,3 +87,7 @@ function App() {
 }
 
 export default App;
+
+//TODO:
+//use a toast (maybe when there isn't enought information use a toast anc not a page)
+//more personal info (a new page? a toast? an offcanvas? a popover?)
