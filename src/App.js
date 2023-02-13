@@ -1,11 +1,19 @@
+import React, { useState } from 'react';
 import img1 from './img/PurpleDungeonSmallLogoVariantPurple.png'
 import logo from './img/PurpleDungeonVariantPurple2.png'
 import './App.css';
-import { Container, Row, Col, Image, Card, Button, ButtonGroup } from 'react-bootstrap';
+import { Container, Row, Col, Image, Card, Button, ButtonGroup, Toast } from 'react-bootstrap';
 import purpleProjects from './purpleProjects.json.js'
 import personalProjects from './personalProjects.json'
 
 function App() {
+  const [show, setShow] = useState({});
+
+  const changeShow = (id) => {
+    console.log(id, show);
+    setShow({...show, [id]: !show[id]});
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -47,7 +55,10 @@ function App() {
                   <Card.Body>
                   <ButtonGroup aria-label="Basic example">
                     <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
-                    <Button variant="outline-dark" href={project.link}>Page</Button>
+                    {!!project.link && project.link != '' 
+                      ? <Button variant="outline-dark" href={project.link}>Page</Button>
+                      : <Button variant="outline-dark">Details</Button>
+                    }
                   </ButtonGroup>
                   </Card.Body>
                 </Card>
@@ -71,10 +82,27 @@ function App() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                  <ButtonGroup aria-label="Basic example">
-                    <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
-                    <Button variant="outline-dark" href={project.link}>Page</Button>
-                  </ButtonGroup>
+                    <ButtonGroup aria-label="Basic example">
+                      <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
+                      {!!project.link && project.link !== '' 
+                        ? <Button variant="outline-dark" href={project.link}>Page</Button>
+                        : <Button variant="outline-dark" onClick={() => changeShow(project.id)}>Details</Button> 
+                      }
+                    </ButtonGroup>
+                    {(!project.link || project.link === '' )
+                      &&  
+                      <Toast style={{ color: '#ccb4d6', backgroundColor: '#1c1c1d' }} show={!!show[project.id]} onClose={() => changeShow(project.id)}>
+                        <Toast.Header style={{backgroundColor: "#745494", color: "#1c1c1d"}}>
+                          <img
+                            src="holder.js/20x20?text=%20"
+                            className="rounded me-2"
+                            alt=""
+                          />
+                          <strong className="me-auto">{project.name}</strong>
+                        </Toast.Header>
+                        <Toast.Body>{project.details}</Toast.Body>
+                      </Toast>
+                    }
                   </Card.Body>
                 </Card>
               </Col>
