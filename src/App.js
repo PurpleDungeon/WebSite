@@ -53,13 +53,27 @@ function App() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                  <ButtonGroup aria-label="Basic example">
-                    <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
-                    {!!project.link && project.link != '' 
-                      ? <Button variant="outline-dark" href={project.link}>Page</Button>
-                      : <Button variant="outline-dark">Details</Button>
+                    <ButtonGroup aria-label="Basic example">
+                      <Button variant="dark" target="_blank" href={project.gitHub}>GitHub</Button>
+                      {!!project.link && project.link !== '' 
+                        ? <Button variant="outline-dark" href={project.link}>Page</Button>
+                        : <Button variant="outline-dark" onClick={() => changeShow(project.id)}>Details</Button> 
+                      }
+                    </ButtonGroup>
+                    {(!project.link || project.link === '' )
+                      &&  
+                      <Toast style={{ color: '#ccb4d6', backgroundColor: '#1c1c1d' }} show={!!show[project.id]} onClose={() => changeShow(project.id)}>
+                        <Toast.Header style={{backgroundColor: "#745494", color: "#1c1c1d"}}>
+                          <img
+                            src="holder.js/20x20?text=%20"
+                            className="rounded me-2"
+                            alt=""
+                          />
+                          <strong className="me-auto">{project.name}</strong>
+                        </Toast.Header>
+                        <Toast.Body>{project.details}</Toast.Body>
+                      </Toast>
                     }
-                  </ButtonGroup>
                   </Card.Body>
                 </Card>
               </Col>
