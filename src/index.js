@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'atropos/css'
 
 import projectPages from './routers/projectPages.router.js';
 
