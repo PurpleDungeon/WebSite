@@ -2,6 +2,9 @@ import React from 'react';
 import Atropos from 'atropos/react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './atropos.css'
+import dungeonEntrance from './dungeon_entrance.svg'
+import mountains from './atropos-mountains.svg'
+import purpleDunegon from './Purple Dungeon.svg'
 
 function App() {
   return (
@@ -22,33 +25,28 @@ function App() {
                     alt=""
                   />
                   <img
-                    data-atropos-offset="-4.5"
+                    data-atropos-offset="-4"
                     src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-bg.svg"
                     alt=""
                   />
                   <img
-                    data-atropos-offset="-2.5"
+                    data-atropos-offset="-2"
                     src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-mountains.svg"
                     alt=""
                   />
                   <img
                     data-atropos-offset="0"
-                    src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-forest-back.svg"
+                    src={mountains}
                     alt=""
                   />
                   <img
-                    data-atropos-offset="2"
-                    src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-forest-mid.svg"
-                    alt=""
-                  />
-                  <img
-                    data-atropos-offset="4"
-                    src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-forest-front.svg"
+                    data-atropos-offset="3"
+                    src={dungeonEntrance}
                     alt=""
                   />
                   <img
                     data-atropos-offset="5"
-                    src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-logo-en.svg"
+                    src={purpleDunegon}
                     alt=""
                   />
                 </Atropos>

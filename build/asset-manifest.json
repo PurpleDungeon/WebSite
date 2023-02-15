@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.0e7dd44f.css",
-    "main.js": "/static/js/main.ef4f7487.js",
+    "main.js": "/static/js/main.bce1bc4e.js",
     "static/js/787.1d5f8a27.chunk.js": "/static/js/787.1d5f8a27.chunk.js",
     "static/media/pic1.png": "/static/media/pic1.76a2c9bb5038e9374c95.png",
     "static/media/PurpleDungeonSmallLogoVariantPurple.png": "/static/media/PurpleDungeonSmallLogoVariantPurple.5c3cd0e0e3aac02a5595.png",
     "static/media/pic1.jpeg": "/static/media/pic1.f185d1eea937bae1ac1f.jpeg",
     "static/media/PurpleDungeonVariantPurple2.png": "/static/media/PurpleDungeonVariantPurple2.d60c4dde0708fcfc4e3b.png",
+    "static/media/atropos-mountains.svg": "/static/media/atropos-mountains.31f8c2352097e91e0668c63dbb637f0f.svg",
+    "static/media/Purple Dungeon.svg": "/static/media/Purple Dungeon.917c948ea943e99cae9f811a4d9d6ca5.svg",
+    "static/media/dungeon_entrance.svg": "/static/media/dungeon_entrance.61dead41057e30ac3cabd2a42aabc951.svg",
     "index.html": "/index.html",
     "main.0e7dd44f.css.map": "/static/css/main.0e7dd44f.css.map",
-    "main.ef4f7487.js.map": "/static/js/main.ef4f7487.js.map",
+    "main.bce1bc4e.js.map": "/static/js/main.bce1bc4e.js.map",
     "787.1d5f8a27.chunk.js.map": "/static/js/787.1d5f8a27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e7dd44f.css",
-    "static/js/main.ef4f7487.js"
+    "static/js/main.bce1bc4e.js"
   ]
 }
