@@ -1,7 +1,7 @@
 import React from 'react';
 import Atropos from 'atropos/react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './atropos.css'
+import './css/atropos.css'
 import atroposbg from './img/atropos-bg.svg'
 import mountains from './img/atropos-mountains.svg'
 import mountains2 from './img/atropos-mountains2.svg'
