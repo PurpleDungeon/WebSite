@@ -2,9 +2,11 @@ import React from 'react';
 import Atropos from 'atropos/react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './atropos.css'
-import dungeonEntrance from './dungeon_entrance.svg'
-import mountains from './atropos-mountains.svg'
-import purpleDunegon from './Purple Dungeon.svg'
+import atroposbg from './img/atropos-bg.svg'
+import mountains from './img/atropos-mountains.svg'
+import mountains2 from './img/atropos-mountains2.svg'
+import dungeonEntrance from './img/dungeon_entrance.svg'
+import purpleDunegon from './img/purple-dungeon.svg'
 
 function App() {
   return (
@@ -21,22 +23,22 @@ function App() {
                 >
                   <img
                     className="atropos-banner-spacer"
-                    src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-bg.svg"
+                    src={atroposbg}
                     alt=""
                   />
                   <img
                     data-atropos-offset="-4"
-                    src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-bg.svg"
+                    src={atroposbg}
                     alt=""
                   />
                   <img
                     data-atropos-offset="-2"
-                    src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-mountains.svg"
+                    src={mountains}
                     alt=""
                   />
                   <img
                     data-atropos-offset="0"
-                    src={mountains}
+                    src={mountains2}
                     alt=""
                   />
                   <img
