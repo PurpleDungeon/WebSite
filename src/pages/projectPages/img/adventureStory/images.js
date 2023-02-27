@@ -8,6 +8,8 @@ import attackEffect from "./attackEffect.png";
 import selectTarget from "./selectTarget.png";
 import selectMagic from "./selectMagic.png";
 import battleNotification from "./battleNotification.png";
+import battleRewards from "./battleRewards.png";
+import gameOver from "./gameOver.png";
 
 let images = {
     dialogManager: dialogManager,
@@ -19,7 +21,9 @@ let images = {
     attackEffect: attackEffect,
     selectTarget: selectTarget,
     selectMagic: selectMagic,
-    battleNotification: battleNotification
+    battleNotification: battleNotification,
+    battleRewards: battleRewards,
+    gameOver: gameOver
 };
 
 export default images;

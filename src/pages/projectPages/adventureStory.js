@@ -210,6 +210,30 @@ function App() {
                       <Row>
                         <Image src={images.battleNotification}></Image>
                       </Row>
+                      <Row>
+                        <h4>Battle Starter</h4>
+                      </Row>
+                      <Row>
+                        <p>The script "BattleStarter.cs" is used to start a battle. Depending on the three Boolean fields it will call "BattleManager.cs" passing it the list of enemies and rewards to appear by randomly taking one of several saved enemy sets.</p>
+                      </Row>
+                      <Row>
+                        <h4>Battle Rewards</h4>
+                      </Row>
+                      <Row>
+                        <p>The script "BattleReward.cs" is called at the end of a battle in case of victory. When called it opens the rewards menu showing the player what he got from the battle, when the menu closes the script will add the various rewards to the inventory and add experience to the players</p>
+                      </Row>
+                      <Row>
+                        <Image src={images.battleRewards}></Image>
+                      </Row>
+                      <Row>
+                        <h4>Game Over</h4>
+                      </Row>
+                      <Row>
+                        <p>“GameOver.cs” viene chiamato al termine di una battaglia in caso di sconfitta. Quando viene chiamato chiama la scena GameOver</p>
+                      </Row>
+                      <Row>
+                        <Image src={images.gameOver}></Image>
+                      </Row>
                     </Col>
                   </Row>
                 </Col>
