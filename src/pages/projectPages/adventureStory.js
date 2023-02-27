@@ -19,7 +19,9 @@ function App() {
                     <h3>Game manager</h3>
                   </Row>
                   <Row>
-                    <p>The "GameManager.cs" is the script that manages the various features of the game. It contains the Stats of the players, their coins and items and manages them, and alerts the various features the state of others.</p>
+                    <p>The "GameManager.cs" is the script that manages the various features of the game.</p>
+                    <p>It contains the Stats of the players, their coins and alerts the various features the state of others.</p>
+                    <p>This script is in charge of saving and loading data so that the player can pause the game, and it contain and manage player's items</p>
                   </Row>
                 </Col>
               </Row>
@@ -33,6 +35,31 @@ function App() {
                     <p>Through the "PlayerController.cs" script, player movements are managed. The script handles user input, animations, and prevents the PG from leaving the boundaries of the map.</p>
                     <p>Through the "ToArea.cs" and "FromArea.cs" scripts, transitions between one scene and another are handled. The "ToArea.cs" script is used to send a player to another scene, while the "FromArea.cs" is used to receive a player from another scene.</p>
                     <p>Through the "PlayerController.cs" script, player movements are managed. The script handles user input, animations, and prevents the PG from leaving the boundaries of the map.</p>
+                  </Row>
+                </Col>
+              </Row>
+              <hr class="rounded"></hr>
+              <Row>
+                <Col>
+                  <Row>
+                    <h3>Audio System</h3>
+                  </Row>
+                  <Row>
+                    <p>Through the "AudioManager.cs" the game can play and stop both Sound Effect and Background Music in every situation (Enter a city, starting a battle, using an attack and similar)</p>
+                  </Row>
+                </Col>
+              </Row>
+              <hr class="rounded"></hr>
+              <Row>
+                <Col>
+                  <Row>
+                    <h3>Quest System</h3>
+                  </Row>
+                  <Row>
+                    <p>With the "QuestManager.cs" script the game save and manage a list of variable to activate and deactivate some Quest Object</p>
+                    <p>"QuestObject.cs" is the script that activate and deactivate other object in the game based on the "QuestManager.cs" variables</p>
+                    <p>"QuestMarker.cs" is in charge to call the "QuestManager.cs" to activate and deactivare variables in various situations</p>
+                    <p>In combo with the Dialog System the game can activate quest even after a Dialogue</p>
                   </Row>
                 </Col>
               </Row>
@@ -163,10 +190,11 @@ function App() {
                         <Image src={images.battleManager}></Image>
                       </Row>
                       <Row>
-                        <h4>Battle Characters</h4>
+                        <h4>Battle Characters and Boss</h4>
                       </Row>
                       <Row>
                         <p>The script "BattleChar.cs" manages the various players and NPCs that are in the battle, contains their statistics, what moves they can use, and some useful information and functions for the program to function.</p>
+                        <p>This script can be used to create some special enemys, like boss and similar, by creating a new classes that inherits from a BattleChar and then by overriding the ChooseAttack method</p>
                       </Row>
                       <Row>
                         <h4>Battle Move</h4>
