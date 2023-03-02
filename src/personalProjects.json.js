@@ -53,7 +53,7 @@ let json = [{
     "src": roguelike,
     "name": "Roguelike",
     "caption": "A simple roguelike game. The game is written in C# and uses the Unity engine. Currently it is still work in progress.",
-    "gitHub": "",
+    "gitHub": "https://github.com/MurasakiSimema/roguelike",
     "link": "/roguelike"
   }]
 
