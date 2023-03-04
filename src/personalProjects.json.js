@@ -26,14 +26,14 @@ let json = [{
     "name": "Simple Chat",
     "caption": "A simple console chat that allows you to send message to other people on the same computer. The chat is written in NodeJs and uses the enquirer node module. It was made for a school project.",
     "gitHub": "https://github.com/MurasakiSimema/SimpleChat",
-    "details": "The chat is written in NodeJs and uses the enquirer node module. It was made for a school project."
+    "details": "The chat is written in NodeJs and uses the enquirer node module. It saves the messages in a JSON file. The user after the first login can write, read and delete messages."
   }, {
     "id": 4,
     "src": evaPlatform,
     "name": "Eva Platform",
     "caption": "A simple platform game like the google dinosaur game. The game is written in HTML, Javascript and CSS. It was made for a school project. There are some eastereggs in the game, try some password.",
     "gitHub": "https://github.com/MurasakiSimema/EvaPlatform",
-    "details": "The game is written in HTML, Javascript and CSS. It was made for a school project. There are some eastereggs in the game, try some password."
+    "details": "The game is written in HTML, Javascript and CSS. The games run with a single script that move the entities and controls the collisions. There are some eastereggs in the game, try some password."
   }, {
     "id": 5,
     "src": donateFor,
@@ -47,7 +47,7 @@ let json = [{
     "name": "Aste",
     "caption": "A simple Windows' application that permit to view and edit a list of artifact for an auction house. The application is a Windows App Form written in C# (.NET Framework) and uses a SQL Database. It was made for a school exam.",
     "gitHub": "https://github.com/MurasakiSimema/Aste",
-    "details": "The application is a Windows App Form written in C# (.NET Framework) and uses a SQL Database. It was made for a school exam."
+    "details": "The application is a Windows App Form written in C# (.NET Framework) and uses a SQL Database. Is a simple CRUD application with Business Logic. You can add, edit and delete an artifact."
   }, {
     "id": 7,
     "src": roguelike,
