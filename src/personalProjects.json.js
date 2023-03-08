@@ -4,7 +4,7 @@ import simpleChat from './img/projects/simpleChat/pic1.png';
 import evaPlatform from './img/projects/evaPlatform/pic1.png';
 import donateFor from './img/projects/donateFor/pic1.png';
 import aste from './img/projects/aste/pic1.png';
-import roguelike from './img/projects/roguelike/pic1.jpeg';
+import roguelike from './img/projects/roguelike/pic1.png';
 
 let json = [{
     "id": 1,

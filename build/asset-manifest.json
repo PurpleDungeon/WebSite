@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e7dd44f.css",
-    "main.js": "/static/js/main.beec1113.js",
+    "main.css": "/static/css/main.e77130e6.css",
+    "main.js": "/static/js/main.fafb2987.js",
     "static/js/787.1d5f8a27.chunk.js": "/static/js/787.1d5f8a27.chunk.js",
     "static/media/pic1.png": "/static/media/pic1.76a2c9bb5038e9374c95.png",
     "static/media/battleManager.png": "/static/media/battleManager.fc36c7bb8c2f7a9cdc5c.png",
@@ -25,12 +25,12 @@
     "static/media/purple-dungeon.svg": "/static/media/purple-dungeon.917c948ea943e99cae9f811a4d9d6ca5.svg",
     "static/media/dungeon_entrance.svg": "/static/media/dungeon_entrance.61dead41057e30ac3cabd2a42aabc951.svg",
     "index.html": "/index.html",
-    "main.0e7dd44f.css.map": "/static/css/main.0e7dd44f.css.map",
-    "main.beec1113.js.map": "/static/js/main.beec1113.js.map",
+    "main.e77130e6.css.map": "/static/css/main.e77130e6.css.map",
+    "main.fafb2987.js.map": "/static/js/main.fafb2987.js.map",
     "787.1d5f8a27.chunk.js.map": "/static/js/787.1d5f8a27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e7dd44f.css",
-    "static/js/main.beec1113.js"
+    "static/css/main.e77130e6.css",
+    "static/js/main.fafb2987.js"
   ]
 }
