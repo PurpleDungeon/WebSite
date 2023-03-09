@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className='App-div-black d-flex align-items-center justify-content-center'>
         <Container>
-          <h1> Adventure Story </h1>
+          <h1> Roguelike </h1>
           <Row className='mt-5'>
             <Col>
               <Row className='mb-3'>

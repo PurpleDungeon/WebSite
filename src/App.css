@@ -45,7 +45,7 @@
 }
 
 .important-text {
-    color: #EC7287;
+    color: #ec7287;
 }
 
 html {
@@ -66,14 +66,29 @@ html {
     transform: skewX(-15deg);
 }
 
+@media screen and (max-width: 600px) {
+    .cta {
+        display: flex;
+        padding: 10px 45px;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        color: #1c1c1d;
+        background: #ccb4d6;
+        transition: 1s;
+        box-shadow: 6px 6px 0 #745494;
+    }
+}
+
 .cta:focus {
     outline: none;
 }
 
 .cta:hover {
     transition: 0.5s;
-    box-shadow: 10px 10px 0 #EC7287;
-    color: #EC7287 !important;
+    box-shadow: 10px 10px 0 #ec7287;
+    color: #ec7287 !important;
 }
 
 .cta span:nth-child(2) {
@@ -126,7 +141,7 @@ path.two {
         fill: #745494;
     }
     50% {
-        fill: #EC7287;
+        fill: #ec7287;
     }
     100% {
         fill: #745494;
