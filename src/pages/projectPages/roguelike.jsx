@@ -10,7 +10,7 @@ function App() {
           <Row className='mt-5'>
             <Col>
               <Row className='mb-3'>
-                <h2>Features:</h2>
+                <h2>Documentation:</h2>
               </Row>
               <Row>
                 <Col>

@@ -30,6 +30,16 @@
     min-height: 100vh;
 }
 
+.App-screen-purple {
+    background-color: #745494;
+    color: #1c1c1d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 120vh;
+}
+
 .App-div-black {
     background-color: #1c1c1d;
     color: #ccb4d6;
