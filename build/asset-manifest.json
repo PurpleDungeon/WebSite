@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d42c870d.css",
-    "main.js": "/static/js/main.0b719f5a.js",
+    "main.js": "/static/js/main.04ba3bef.js",
     "static/js/787.1d5f8a27.chunk.js": "/static/js/787.1d5f8a27.chunk.js",
+    "static/media/adventureStory.mp4": "/static/media/adventureStory.587d5b67e388048b4f52.mp4",
     "static/media/pic1.png": "/static/media/pic1.76a2c9bb5038e9374c95.png",
     "static/media/battleManager.png": "/static/media/battleManager.fc36c7bb8c2f7a9cdc5c.png",
     "static/media/attackEffect.png": "/static/media/attackEffect.74010d1ab50c812eb3f1.png",
@@ -26,11 +27,11 @@
     "static/media/dungeon_entrance.svg": "/static/media/dungeon_entrance.22262ae178a70b34669305fdce35929f.svg",
     "index.html": "/index.html",
     "main.d42c870d.css.map": "/static/css/main.d42c870d.css.map",
-    "main.0b719f5a.js.map": "/static/js/main.0b719f5a.js.map",
+    "main.04ba3bef.js.map": "/static/js/main.04ba3bef.js.map",
     "787.1d5f8a27.chunk.js.map": "/static/js/787.1d5f8a27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d42c870d.css",
-    "static/js/main.0b719f5a.js"
+    "static/js/main.04ba3bef.js"
   ]
 }
