@@ -15,7 +15,6 @@ import {
 } from "react-bootstrap";
 import purpleProjects from "./purpleProjects.json.js";
 import personalProjects from "./personalProjects.json";
-import { Parallax } from "react-scroll-parallax";
 
 function App() {
   return (
