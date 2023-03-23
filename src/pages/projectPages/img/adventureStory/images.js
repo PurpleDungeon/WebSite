@@ -10,6 +10,7 @@ import selectMagic from "./selectMagic.png";
 import battleNotification from "./battleNotification.png";
 import battleRewards from "./battleRewards.png";
 import gameOver from "./gameOver.png";
+import gamePlay from "./adventureStory.mp4";
 
 let images = {
     dialogManager: dialogManager,
@@ -23,7 +24,8 @@ let images = {
     selectMagic: selectMagic,
     battleNotification: battleNotification,
     battleRewards: battleRewards,
-    gameOver: gameOver
+    gameOver: gameOver,
+    gamePlay: gamePlay
 };
 
 export default images;
