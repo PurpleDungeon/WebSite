@@ -489,7 +489,7 @@ function App() {
                 <h2>Gameplay:</h2>
               </Row>
               <Row>
-                <video width="100%" height="100%" controls>
+                <video width="100%" height="100%" controls poster={images.dialogManager}>
                   <source src={images.gamePlay} type="video/mp4" />
                 </video>
               </Row>
