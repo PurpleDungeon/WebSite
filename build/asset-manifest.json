@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d42c870d.css",
-    "main.js": "/static/js/main.04ba3bef.js",
+    "main.js": "/static/js/main.21989b3c.js",
     "static/js/787.1d5f8a27.chunk.js": "/static/js/787.1d5f8a27.chunk.js",
     "static/media/adventureStory.mp4": "/static/media/adventureStory.587d5b67e388048b4f52.mp4",
     "static/media/pic1.png": "/static/media/pic1.76a2c9bb5038e9374c95.png",
@@ -19,19 +19,19 @@
     "static/media/PurpleDungeonSmallLogoVariantPurple.png": "/static/media/PurpleDungeonSmallLogoVariantPurple.5c3cd0e0e3aac02a5595.png",
     "static/media/pic1.jpeg": "/static/media/pic1.f185d1eea937bae1ac1f.jpeg",
     "static/media/gameOver.png": "/static/media/gameOver.738ce6affe5c1bf69950.png",
-    "static/media/atropos-bg.svg": "/static/media/atropos-bg.10f1f15958d9e10e361acd80cefdd5f7.svg",
+    "static/media/atropos-bg.svg": "/static/media/atropos-bg.17a60d2716283ad23bef15b9dbb8dd42.svg",
     "static/media/PurpleDungeonVariantPurple2.png": "/static/media/PurpleDungeonVariantPurple2.d60c4dde0708fcfc4e3b.png",
-    "static/media/atropos-mountains2.svg": "/static/media/atropos-mountains2.6a8fa542c4f5ad5bfd144482e4bd2046.svg",
-    "static/media/atropos-mountains.svg": "/static/media/atropos-mountains.bbfa7e0dfa2e3fd82bc503c21aeee535.svg",
+    "static/media/atropos-mountains2.svg": "/static/media/atropos-mountains2.31f8c2352097e91e0668c63dbb637f0f.svg",
+    "static/media/atropos-mountains.svg": "/static/media/atropos-mountains.4402d5e34b331fc7558a3e22227df4f7.svg",
     "static/media/purple-dungeon.svg": "/static/media/purple-dungeon.917c948ea943e99cae9f811a4d9d6ca5.svg",
-    "static/media/dungeon_entrance.svg": "/static/media/dungeon_entrance.22262ae178a70b34669305fdce35929f.svg",
+    "static/media/dungeon_entrance.svg": "/static/media/dungeon_entrance.61dead41057e30ac3cabd2a42aabc951.svg",
     "index.html": "/index.html",
     "main.d42c870d.css.map": "/static/css/main.d42c870d.css.map",
-    "main.04ba3bef.js.map": "/static/js/main.04ba3bef.js.map",
+    "main.21989b3c.js.map": "/static/js/main.21989b3c.js.map",
     "787.1d5f8a27.chunk.js.map": "/static/js/787.1d5f8a27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d42c870d.css",
-    "static/js/main.04ba3bef.js"
+    "static/js/main.21989b3c.js"
   ]
 }
