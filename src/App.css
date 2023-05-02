@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(8px + 3vmin);
     color: white;
     position: sticky;
     top: 0;
@@ -32,6 +32,7 @@
     min-height: 100vh;
     position: sticky;
     top: 0;
+    font-size: calc(10px + 1vmin);
 }
 
 .App-screen-purple {
@@ -44,6 +45,7 @@
     min-height: 100vh;
     position: sticky;
     top: 0;
+    font-size: calc(10px + 1vmin);
 }
 
 .App-div-black {
@@ -85,7 +87,7 @@ html {
 @media screen and (max-width: 600px) {
     .cta {
         display: flex;
-        padding: 10px 45px;
+        padding: 8px 30px;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-size: 17px;
