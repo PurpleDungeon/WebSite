@@ -12,6 +12,8 @@ import {
   ButtonGroup,
   Popover,
   OverlayTrigger,
+  ToastContainer,
+  Toast,
 } from "react-bootstrap";
 import purpleProjects from "./purpleProjects.json.js";
 import personalProjects from "./personalProjects.json";
@@ -26,6 +28,15 @@ function App() {
           className="App-logo"
           alt="logo"
         />
+        <ToastContainer className="p-3 position-relative" position="top-end">
+          <Toast bg="dark">
+            <Toast.Header closeButton={false} style={{ color: "#1c1c1d" }}>
+              <strong className="me-auto">Purple Dungeon</strong>
+              <small>just now</small>
+            </Toast.Header>
+            <Toast.Body style={{ color: "#ccb4d6" }}>Hiii, this website is still a WIP, so if you notice something strange don't worry, i will fix it later!</Toast.Body>
+          </Toast>
+        </ToastContainer>
       </header>
       <div className="App-screen-black d-flex align-items-center justify-content-center">
         <Container fluid>
@@ -42,8 +53,8 @@ function App() {
               <h2> What is Purple Dungeon? </h2>
               <p className="text-center">
                 Purple Dungeon is an immaginary game studio made by Simone
-                Bergonzi (aka Murasaki Simema). The studio is a place where
-                Murasaki Simema put his personal project.
+                Bergonzi (aka Murasaki Simema). This studio is a place created
+                to collect some of his personal project.
               </p>
               <h2 className="mt-4"> Who is Simone Bergonzi? </h2>
               <p className="text-center">
@@ -249,7 +260,7 @@ function App() {
                                   {project.name}
                                 </strong>
                               </Popover.Header>
-                              <Popover.Body style={{ color: "#ccb4d6" }}>
+                              <Popover.Body>
                                 {project.details}
                               </Popover.Body>
                             </Popover>

@@ -1,9 +1,14 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
+      <Navbar className='App-navbar'>
+        <Container fluid>
+          <Navbar.Brand href="/" style={{ 'color': '#ccb4d6' }}>Home</Navbar.Brand>
+        </Container>
+      </Navbar>
       <div className="App-screen-black d-flex align-items-center justify-content-center">
         <Container>
           <h1>Headline Text</h1>

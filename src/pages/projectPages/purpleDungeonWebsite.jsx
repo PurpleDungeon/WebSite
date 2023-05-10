@@ -1,6 +1,6 @@
 import React from 'react';
 import Atropos from 'atropos/react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Navbar } from 'react-bootstrap';
 import './css/atropos.css'
 import atroposbg from './img/atropssvg/atropos-bg.svg'
 import mountains from './img/atropssvg/atropos-mountains.svg'
@@ -11,6 +11,11 @@ import purpleDunegon from './img/atropssvg/purple-dungeon.svg'
 function App() {
   return (
     <div className="App">
+      <Navbar className='App-navbar'>
+        <Container fluid>
+          <Navbar.Brand href="/" style={{ 'color': '#ccb4d6' }}>Home</Navbar.Brand>
+        </Container>
+      </Navbar>
       <div className='App-div-black d-flex align-items-center justify-content-center'>
         <Container>
           <h1> Purple Dungeon Website </h1>
