@@ -7,7 +7,7 @@ function App() {
       <Navbar className='App-navbar'>
         <Container fluid>
           <Navbar.Brand href="/" style={{ 'color': '#ccb4d6' }}> 
-            <button style="--clr:#8A2BE2"><span>HOME</span><i></i></button>
+            <button className="nav-neon-button"><span>HOME</span><i></i></button>
           </Navbar.Brand>
         </Container>
       </Navbar>
