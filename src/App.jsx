@@ -15,7 +15,7 @@ import {
   ToastContainer,
   Toast,
 } from "react-bootstrap";
-import purpleProjects from "./purpleProjects.json.js";
+//import purpleProjects from "./purpleProjects.json.js";
 import personalProjects from "./personalProjects.json";
 
 function App() {
