@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Navbar className='App-navbar'>
         <Container fluid>
-          <Navbar.Brand href="/" style={{ 'color': '#ccb4d6' }}> 
+          <Navbar.Brand href="/"> 
             <button className="nav-neon-button"><span>HOME</span><i></i></button>
           </Navbar.Brand>
         </Container>

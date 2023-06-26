@@ -13,7 +13,9 @@ function App() {
     <div className="App">
       <Navbar className='App-navbar'>
         <Container fluid>
-          <Navbar.Brand href="/" style={{ 'color': '#ccb4d6' }}>Home</Navbar.Brand>
+          <Navbar.Brand href="/"> 
+            <button className="nav-neon-button"><span>HOME</span><i></i></button>
+          </Navbar.Brand>
         </Container>
       </Navbar>
       <div className='App-div-black d-flex align-items-center justify-content-center'>

@@ -105,7 +105,7 @@ function App() {
           </Row>
         </Container>
       </div>
-      <div className="App-screen-black d-flex align-items-center justify-content-center">
+      {/*<div className="App-screen-black d-flex align-items-center justify-content-center">
         <Container fluid>
           <h1>Purple Dungeon Projects</h1>
           <Row className="mt-5 d-flex justify-content-center">
@@ -190,10 +190,10 @@ function App() {
             ))}
           </Row>
         </Container>
-      </div>
+      </div>*/}
       <div className="App-screen-black d-flex align-items-center justify-content-center">
         <Container fluid>
-          <h1>Other Projects</h1>
+          <h1>Some Projects</h1>
           <Row className="mt-5 d-flex justify-content-center">
             {personalProjects.map((project) => (
               <Col
@@ -260,7 +260,7 @@ function App() {
                                   {project.name}
                                 </strong>
                               </Popover.Header>
-                              <Popover.Body>
+                              <Popover.Body style={{ color: "#ccb4d6" }}>
                                 {project.details}
                               </Popover.Body>
                             </Popover>
