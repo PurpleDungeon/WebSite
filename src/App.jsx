@@ -53,15 +53,15 @@ function App() {
               <h2> What is Purple Dungeon? </h2>
               <p className="text-center">
                 Purple Dungeon is an immaginary game studio made by Simone
-                Bergonzi (aka Murasaki Simema). This studio is a place created
+                Bergonzi (aka MurasakiSimema). This studio is a place created
                 to collect some of his personal project.
               </p>
               <h2 className="mt-4"> Who is Simone Bergonzi? </h2>
               <p className="text-center">
                 Simone Bergonzi is a 21 yo developer from Italy. He is currently
-                working in a local company as a Full Stack Developer on a Web
+                working in a local company as a Full Stack Developer on Web
                 Applications. His dream is to create a memorable RPG Game. His
-                main programming languages are C# and Javascript.
+                main programming languages are C# and Javascript/Typescript.
               </p>
               <div
                 style={{

@@ -43,7 +43,8 @@ function App() {
                 <p>
                   Simone holds a Secondary School Diploma in IT from ISII Marconi with a score of 90.
                   He had made an internship at Amada Italia, where they developed a Windows Application in C# to manage internal files.
-                  Currently employed as a full-stack developer at a local software house, specialized in Javascript/Typescript, working with NodeJS and frameworks like Vue.
+                  Currently employed as a full-stack developer at a local software house named LikableHair, specialized in Javascript/Typescript, working with NodeJS and frameworks like Vue and Svelte.
+                  He is recently entering the world of DevOps by working on Docker based systems.
                   Alongside their work, they are pursuing a degree in Computer Science at UNIPR, further expanding their knowledge and skills.
                   Simone is dedicated to growth and poised for a successful career in computer science.
                 </p>
