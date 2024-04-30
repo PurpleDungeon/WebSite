@@ -4,6 +4,7 @@ import simpleChat from './img/projects/simpleChat/pic1.png';
 import evaPlatform from './img/projects/evaPlatform/pic1.png';
 import donateFor from './img/projects/donateFor/pic1.png';
 import aste from './img/projects/aste/pic1.png';
+import blackJack from './img/projects/blackJack/pic1.png';
 import roguelike from './img/projects/roguelike/pic1.png';
 
 let json = [{
@@ -50,6 +51,13 @@ let json = [{
     "details": "The application is a Windows App Form written in C# (.NET Framework) and uses a SQL Database. Is a simple CRUD application with Business Logic. You can add, edit and delete an artifact."
   }, {
     "id": 7,
+    "src": blackJack,
+    "name": "BlackJack",
+    "caption": "A simple Windows' application that permit create an automatic game of BlackJack, played by 5 bots. It was made for a school exam.",
+    "gitHub": "https://github.com/MurasakiSimema/BlackJack",
+    "details": "The application is a Windows App Form written in C# (.NET Framework)."
+  }, {
+    "id": 8,
     "src": roguelike,
     "name": "Roguelike",
     "caption": "A simple roguelike game. The game is written in C# and uses the Unity engine. Currently it is still work in progress.",
