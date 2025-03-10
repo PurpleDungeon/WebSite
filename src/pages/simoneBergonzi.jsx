@@ -20,7 +20,7 @@ function App() {
           <Row className="d-flex align-items-center justify-content-center">
             <Col sm={12} md={12} lg>
               <p>
-                Simone Bergonzi is a 21-year-old full-stack developer proficient in Javascript/Typescript, C#, and experienced with Vue, NodeJs, and Unity.
+                Simone Bergonzi is a 23-year-old Software Architect and System Administrator proficient in Javascript/Typescript and C#, and experienced with Vue, NodeJs, Java e C++.
                 He enjoys RPG video games and find inspiration in anime and manga.
                 With a diverse set of skill and a passion for technology and interactive storytelling, Simone brings creativity and analytical thinking to their work, constantly striving for growth in the software development field.
               </p>
@@ -44,7 +44,7 @@ function App() {
                   Simone holds a Secondary School Diploma in IT from ISII Marconi with a score of 90.
                   He had made an internship at Amada Italia, where he developed a Windows Application in C# to manage internal files.
                   Initially hired as a full-stack developer at a local software house named LikableHair, specialized in Javascript/Typescript, working with NodeJS and frameworks like Vue and Svelte.
-                  Now he is entering the world of DevOps by working with Docker on Linux systems for the same company.
+                  Now he is working with Docker on Linux systems for the same company as a Software Architect and System Administrator.
                   Alongside his work, he is pursuing a degree in Computer Science at UNIPR, further expanding its knowledge and skills.
                   Simone is dedicated to growth and poised for a successful career in computer science.
                 </p>
@@ -63,7 +63,7 @@ function App() {
                 He is an avid lover of RPG video games, finding inspiration in his immersive storytelling and intricate world-building. 
                 In his downtime, Simone can often be found exploring virtual realms and embarking on epic quests. 
                 Additionally, he draws inspiration from anime and manga, appreciating the artistry and narrative depth found in these mediums. 
-                Whether it's uncovering hidden treasures in a game or diving into the captivating narratives of anime and manga, Simone's personal passions invigorate his creativity and fuel his drive for innovative problem-solving allowing him to bring a unique perspective to his work as a developer.
+                Whether it's uncovering hidden treasures in a game or diving into the captivating narratives of anime and manga, Simone's personal passions invigorate his creativity and fuel his drive for innovative problem-solving allowing him to bring a unique perspective to his work as a developer and as a software architect.
               </p>
             </Col>
             <Col sm={12} md={12} lg>

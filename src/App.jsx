@@ -58,10 +58,10 @@ function App() {
               </p>
               <h2 className="mt-4"> Who is Simone Bergonzi? </h2>
               <p className="text-center">
-                Simone Bergonzi is a 21 yo developer from Italy. He is currently
-                working in a local company as a Full Stack Developer on Web
-                Applications. His dream is to create a memorable RPG Game. His
-                main programming languages are C# and Javascript/Typescript.
+                Simone Bergonzi is a 23 yo developer from Italy. He is currently
+                working in a local company as a Software Architect. 
+                His dream is to create a memorable RPG Game. 
+                His main programming languages are C# and Javascript/Typescript.
               </p>
               <div
                 style={{
@@ -70,12 +70,12 @@ function App() {
                   alignItems: "center",
                 }}
               >
-                <a className="cta" href="/simoneBergonzi">
+                <a className="cta text-center" href="/simoneBergonzi">
                   <span>More About Simone</span>
                   <span>
                     <svg
-                      width="50px"
-                      height="30px"
+                      width="60px"
+                      height="3vh"
                       viewBox="0 0 66 43"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
